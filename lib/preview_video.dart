@@ -283,10 +283,6 @@ class _PreviewVideoState extends State<PreviewVideo>
                 return Transform.rotate(
                   angle: rotAnimation.value,
                   child: child,
-                  origin: Offset(
-                    dataModel.elements[i].properties.centerCoor![0],
-                    dataModel.elements[i].properties.centerCoor![1]
-                  ),
                 );
               }));
           break;
